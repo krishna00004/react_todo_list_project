@@ -1,0 +1,42 @@
+.itmes{
+width: 500px;
+margin: 0 auto;
+}
+
+.para{
+font-weight: bold;
+padding:20px;
+}
+
+.line{
+  border:  1px solid rgb(244, 240, 240);
+  margin: 0 20px;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn{
+  border: none;
+  background-color:#ffce1b ;
+  color: black;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+  transition: all 0.8s;
+}
+
+.btn:hover{
+  background-color: #ffe78f;
+}
+.btn:active{
+  scale: 0.9;
+  background-color: #c49f18;
+}
+
+.completed{
+  text-decoration: line-through;
+}

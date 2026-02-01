@@ -48,31 +48,32 @@ Managing dynamic lists and application state is a core challenge in frontend dev
 
 ##📁 Project Structure
 
-src/
-│── Components/
-│   ├── Todo.jsx
-│   ├── TodoHeader.jsx
-│   ├── TodoList.jsx
-│   ├── TodoItems.jsx
-│   ├── Footer.jsx
-│   ├── Form.jsx
+todoapp/
+│── src/
+│   │── Components/
+│   │   │── Todo.jsx
+│   │   │── TodoHeader.jsx
+│   │   │── TodoList.jsx
+│   │   │── TodoItems.jsx
+│   │   │── Footer.jsx
+│   │   │── Form.jsx
+│   │   │── Form.module.css
+│   │   │── Todoheader.module.css
+│   │   │── TodoItems.module.css
+│   │   │── TodoList.module.css
+│   │   │── Footer.module.css
 │   │
-│   ├── Form.module.css
-│   ├── Todoheader.module.css
-│   ├── TodoItems.module.css
-│   ├── TodoList.module.css
-│   ├── Footer.module.css
+│   │── App.jsx
+│   │── App.css
+│   │── main.jsx
 │
-│── App.jsx
-│── App.css
-│── main.jsx
+│── public/
+│   │── index.html
 │
-public/
-│── index.html
-│
-README.md
-screenshot.png
-package.json
+│── screenshot.png
+│── package.json
+│── README.md
+
 
 ---
 

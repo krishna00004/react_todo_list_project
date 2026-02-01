@@ -43,35 +43,8 @@ Managing dynamic lists and application state is a core challenge in frontend dev
 - **TodoList** – Displays sorted todo list
 - **TodoItems** – Individual todo item (complete/delete)
 - **Footer** – Shows total and completed todo count
-  
-##📁 Project Structure
 
-todoapp/
-│── src/
-│   │── Components/
-│   │   │── Todo.jsx
-│   │   │── TodoHeader.jsx
-│   │   │── TodoList.jsx
-│   │   │── TodoItems.jsx
-│   │   │── Footer.jsx
-│   │   │── Form.jsx
-│   │   │── Form.module.css
-│   │   │── Todoheader.module.css
-│   │   │── TodoItems.module.css
-│   │   │── TodoList.module.css
-│   │   │── Footer.module.css
-│   │
-│   │── App.jsx
-│   │── App.css
-│   │── main.jsx
-│
-│── public/
-│   │── index.html
-│
-│── screenshot.png
-│── package.json
-│── README.md
-
+---
 
 ## 🖥️ Application Flow
 1. User adds a todo using the input form  

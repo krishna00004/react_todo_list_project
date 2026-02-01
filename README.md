@@ -43,9 +43,7 @@ Managing dynamic lists and application state is a core challenge in frontend dev
 - **TodoList** – Displays sorted todo list
 - **TodoItems** – Individual todo item (complete/delete)
 - **Footer** – Shows total and completed todo count
-
----
-
+  
 ##📁 Project Structure
 
 todoapp/
@@ -74,8 +72,6 @@ todoapp/
 │── package.json
 │── README.md
 
-
----
 
 ## 🖥️ Application Flow
 1. User adds a todo using the input form  
